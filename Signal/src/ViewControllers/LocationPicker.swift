@@ -420,7 +420,7 @@ public class Location: NSObject {
     }
 
     public var urlString: String {
-        return "https://maps.google.com/maps?q=\(coordinate.latitude)%2C\(coordinate.longitude)"
+        return "https://maps.apple.com?q=\(coordinate.latitude)%2C\(coordinate.longitude)"
     }
 
     enum LocationError: Error {
